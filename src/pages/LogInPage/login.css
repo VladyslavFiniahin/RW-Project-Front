@@ -1,0 +1,176 @@
+
+#login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#login-page .close-btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: #008C80;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#login-page .close-btn:hover {
+    color: #006d64;
+}
+
+#login-page .wrapper {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background: rgba(183, 219, 214, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, .1);
+    padding: 40px;
+}
+
+#login-page .form-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#login-page .wrapper.active .form-wrapper.sign-in {
+    transform: scale(0);
+}
+
+#login-page .wrapper .form-wrapper.sign-up {
+    position: absolute;
+    top: 0;
+    transform: scale(0);
+}
+
+#login-page .wrapper.active .form-wrapper.sign-up {
+    transform: scale(1);
+}
+
+#login-page .form-wrapper h2 {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+#login-page .input-group {
+    position: relative;
+    margin: 30px 0;
+    border-bottom: 2px solid #fff;
+}
+
+#login-page .input-group label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+#login-page .input-group input {
+    width: 320px;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 5px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-weight: 600;
+}
+
+#login-page .input-group input:focus~label,
+#login-page .input-group input:valid~label {
+    top: -5px;
+    color: #008C80;
+    font-size: 12px;
+}  
+
+#login-page .remember {
+    margin: -5px 0 15px 5px;
+}
+
+#login-page .remember label {
+    color: #fff;
+    font-size: 14px;
+}
+
+#login-page .remember label input {
+    accent-color: #008C80;
+}
+
+#login-page a {
+    color: #008C80;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#login-page a:hover {
+    color: #006d64;
+}
+
+#login-page :where(.forgot-pass) {
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+#login-page button {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background: #008C80;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+}
+
+#login-page .google-button a {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: #008C80;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+#login-page .google-button a:hover {
+    color: #008C80;
+    background-color: #fff;
+}
+
+#login-page button:hover {
+    background: #006d64;
+}
+
+#login-page .signUp-link {
+    font-size: 14px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+#login-page .signUp-link p {
+    color: #fff;
+    font-weight: 600;
+}

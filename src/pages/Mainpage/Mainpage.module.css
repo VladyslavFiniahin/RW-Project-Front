@@ -1,0 +1,144 @@
+
+.section2 {
+  padding: 100px 48px;
+  display: flex;
+}
+
+.cards_section2 {
+  display: flex;
+}
+
+.left_section2 {
+  width: 60%;
+  margin-right: 2.8%;
+}
+
+
+.giant_text {
+  font-size: 124px;
+  font-weight: 500;
+  line-height: 110%;
+}
+
+.red_giant_text {
+  color: #ff5c39;
+}
+.map_card {
+  width: 48%;
+
+  padding: 5%;
+  aspect-ratio: 1.15;
+  background-color: #FF5C39;
+  margin-right: 4%;
+  border-radius: 35px;
+
+  box-sizing: border-box;
+  position: relative;
+}
+
+.card_white_text {
+  position: absolute;
+  bottom: 10%;
+
+  font-weight: 500;
+  font-size: 28px;
+  color: #FFF9F2;
+}
+
+.two_card_white_text {
+  position: absolute;
+  left: 10%;
+  bottom: 20%;
+
+  font-weight: 500;
+  font-size: 28px;
+  color: #FFF9F2;
+}
+
+
+.two_cards {
+  width: 48%;
+  aspect-ratio: 1.15;
+  height: 100%;
+  justify-content: space-evenly; 
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* background-color: #adadad; */
+}
+
+.categories_card_blue {
+  margin-bottom: 10%;
+  height: 44%;
+  background-color: #7A90FF;
+  width: 100%;
+  position: relative;
+  border-radius: 35px;
+}
+
+.categories_card_yellow {
+  height: 44%;
+  background-color: #FFD753; 
+  position: relative;
+  border-radius: 35px;
+}
+
+.right_section2 {
+  background-color: #F6ECE1;
+  flex: 1 1 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 35px;
+}
+
+.section3 {
+  height: 100vh;
+  background-color: #FF5C39;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.red_section_wrapper {
+  display: flex;
+  margin-top: 18%;
+  margin-bottom: 18%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.left_red_section {
+  background-color: aqua;
+}
+
+.big_random_text {
+  color: #fff;
+  font-weight: 500;
+  font-size: 110px;
+}
+
+.red_section_smaller_text {
+  font-weight: 500;
+  font-size: 30px;
+  color: #fff;
+}
+
+.yellow_random_button {
+  margin-top: 3.8%;
+  width: 50%;
+  height: 50px;
+  background-color: #FFD753;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  font-weight: 500;
+  font-size: 30px;
+}

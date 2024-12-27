@@ -1,11 +1,16 @@
 import React from "react";
 import styles from "./Mainpage.module.css";
 
+import Footer from "../../components/Footer/Footer";
+import Header from "../../components/Header/Header"
+
 const Mainpage = () => {
 
 
   return (
+    <>
     <div className={styles.Mainpage}>
+      <Header />
       <section className={styles.section2}>
         <div className={styles.left_section2}>
           <div className={styles.giant_text}>
@@ -21,17 +26,20 @@ const Mainpage = () => {
           </div>
           <div className={styles.cards_section2}>
             <div className={styles.map_card}>
+              <img src="/mainpage/arrow.svg" alt="arrow" className={styles.arrow} />
               <div className={styles.card_white_text}>
                 UKRAINIAN MAP  
               </div>
             </div>
             <div className={styles.two_cards}>
               <div className={styles.categories_card_blue}>
+                <img src="/mainpage/arrow.svg" alt="arrow" className={styles.arrow2} />
                 <div className={styles.two_card_white_text}>
                   CATEGORIES
                 </div>                
               </div>
               <div className={styles.categories_card_yellow}>
+              <img src="/mainpage/arrow.svg" alt="arrow" className={styles.arrow2} />
                 <div className={styles.two_card_white_text}>
                     CATEGORIES
                 </div> 
@@ -61,9 +69,11 @@ const Mainpage = () => {
 
           </div>
         </div>
-        <img className={styles.shit} src="../../../public/header/randomContainer1.jpg" alt="food" />
+        {/* <img src="/mainpage/food.png" alt="food" /> */}
       </section>
+      <Footer />
     </div>
+    </>
   )
 }
 

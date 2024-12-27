@@ -26,6 +26,7 @@
 .map_card {
   width: 48%;
 
+  position: relative;
   padding: 5%;
   aspect-ratio: 1.15;
   background-color: #FF5C39;
@@ -34,6 +35,17 @@
 
   box-sizing: border-box;
   position: relative;
+}
+
+.arrow {
+  position: absolute;
+  right: 3vw;
+}
+
+.arrow2 {
+  position: absolute;
+  right: 3vw;
+  top: 3vw;
 }
 
 .card_white_text {
@@ -112,7 +124,7 @@
 }
 
 .left_red_section {
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 .big_random_text {

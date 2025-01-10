@@ -1,0 +1,30 @@
+* {
+    background-color: #FFF9F2;
+}
+
+.section {
+    padding: 100px 48px;
+    display: flex;
+  }
+  
+
+
+.categorytitle {
+    font-size: 96px; 
+    color: #000000; 
+    text-align: left; 
+    /*left: 50px;*/
+    margin-bottom: 20px; 
+    position: relative; 
+  }
+  
+  .categorytitle::after {
+    content: ""; 
+    position: absolute;
+    width: 519px; 
+    height: 5px; 
+    background-color: #FF5C39; 
+    bottom: -5px; 
+    left: 0%; 
+  }
+  

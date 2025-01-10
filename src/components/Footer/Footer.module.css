@@ -1,0 +1,15 @@
+.Footer {
+    padding: 0 5vw;
+    height: 28vh;
+    min-height: 150px;
+    background-color: #F6ECE1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    
+  }
+  
+  .logo {
+    width: 15%;
+  }

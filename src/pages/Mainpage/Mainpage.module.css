@@ -107,6 +107,10 @@
   border-radius: 35px;
 }
 
+.right_section2 img {
+  width: 30vw;
+}
+
 .section3 {
   height: 100vh;
   background-color: #FF5C39;
@@ -183,10 +187,10 @@
   z-index: 3; 
 }
 
-.cardRight {
+/* .cardRight {
   transform: rotate(15deg) translateX(100px);
   z-index: 2;
-}
+} */
 
 .heroSection {
   display: flex;
@@ -237,4 +241,15 @@
   position: relative;
   z-index: 2; 
   font-family: 'Comfortaa', sans-serif;
+}
+
+@media (max-width: 1050px) {
+  .right_section2 {
+    display: none;
+  }
+
+  .left_section2 {
+    width: 100%;
+    margin-right: 0;
+  }
 }

@@ -54,7 +54,7 @@ const Mainpage = () => {
             </div>
           </div>
           <div className={styles.right_section2}>
-            <img src="/mainpage/dump2.png" alt="dump2"></img>
+            <img className={styles.dump2} src="/mainpage/dump2.png" alt="dump2"></img>
           </div>
         </section>
 

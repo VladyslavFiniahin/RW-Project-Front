@@ -7,13 +7,13 @@ const Header = () => {
   return (
     <div className={styles.header}>
       <div className={styles.group1}>
-        <div className={styles.g1_item1}>Головна</div>
-        <div className={styles.g1_item2}>Категорії</div>
+        <div className={styles.g1_item1}>Home</div>
+        <div className={styles.g1_item2}>Categories</div>
       </div>
       <img src="header/logo.svg" alt="logoo" className={styles.center_img}/>
       <div className={styles.group2}>
-        <div className={styles.g2_item1}>Карта</div>
-        <div className={styles.g2_item1}>Про Нас</div>
+        <div className={styles.g2_item1}>Map</div>
+        <div className={styles.g2_item1}>About Us</div>
       </div>
       <div className={styles.right}>
         <img src="/header/search.svg" className={styles.search_img} alt="search" />

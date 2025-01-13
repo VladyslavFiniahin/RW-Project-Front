@@ -3,10 +3,18 @@ import styles from "./CategorySlider.module.css";
 
 const CategorySlider = () => {
     const data = [
-        { img: "./Categories/1.png", name: "італьйська кухня", link: "#" },
-        { img: "./Categories/2.png", name: "французька кухня", link: "#" },
-        { img: "./Categories/3.png", name: "іспанська кухня", link: "#" },
-        { img: "./Categories/4.png", name: "японська кухня", link: "#" },
+        { img: "./Categories/american.svg", name: "American", link: "#" },
+        { img: "./Categories/chinese.svg", name: "Chinese", link: "#" },
+        { img: "./Categories/french.svg", name: "French", link: "#" },
+        { img: "./Categories/greek.svg", name: "Greek", link: "#" },
+        { img: "./Categories/indian.svg", name: "Indian", link: "#" },
+        { img: "./Categories/italian.svg", name: "Italian", link: "#" },
+        { img: "./Categories/japanese.svg", name: "Japanese", link: "#" },
+        { img: "./Categories/korean.svg", name: "Korean", link: "#" },
+        { img: "./Categories/mexican.svg", name: "Mexican", link: "#" },
+        { img: "./Categories/spanish.svg", name: "Spanish", link: "#" },
+        { img: "./Categories/turkish.svg", name: "Turkish", link: "#" },
+        { img: "./Categories/ukrainian.svg", name: "Ukranian", link: "#" },
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);

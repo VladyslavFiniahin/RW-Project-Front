@@ -13,7 +13,7 @@ const Categories = () => {
         <div className={styles.Categories}>
         <Header/>
         <div className={styles.categorytitle}>
-                 CATEGORIES
+        CATEGORIES
         </div>
         <div className={styles.section}>
         <CategorySlider/>

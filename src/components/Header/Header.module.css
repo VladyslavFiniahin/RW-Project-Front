@@ -1,3 +1,9 @@
+.link {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
 .header {
   height: 12vh; /* Збільшена висота для розміщення логотипа */
   position: relative;

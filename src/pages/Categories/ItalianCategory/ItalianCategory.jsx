@@ -47,15 +47,6 @@ const ItalianCategory = () => {
             </div>
           ))}
         </div>
-
-        <div className={styles.track}>
-          {dishes.map((dish) => (
-            <div className={styles.item} key={dish.id}>
-              <img src={dish.image} alt={dish.name} />
-                <p>{dish.name}</p>
-            </div>
-          ))}
-        </div>
       </main>
     </div>
     <Footer/>

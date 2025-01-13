@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Header.module.css";
+import {Link} from "react-router-dom"
 
 const Header = () => {
 
@@ -7,10 +8,10 @@ const Header = () => {
   return (
     <div className={styles.header}>
       <div className={styles.group1}>
-        <div className={styles.g1_item1}>Home</div>
-        <div className={styles.g1_item2}>Categories</div>
+        <div className={styles.g1_item1}><Link className={styles.link} to="/">Home</Link></div>
+        <div className={styles.g1_item2}><Link className={styles.link} to="/categories">Categories</Link></div>
       </div>
-      <img src="header/logo.svg" alt="logoo" className={styles.center_img}/>
+      <img src="/header/logo.svg" alt="logoo" className={styles.center_img}/>
       <div className={styles.group2}>
         <div className={styles.g2_item1}>Map</div>
         <div className={styles.g2_item1}>About Us</div>

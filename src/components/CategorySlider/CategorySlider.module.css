@@ -59,7 +59,7 @@
     font-size: 50px;
     cursor: pointer;
     position: absolute;
-    top: 695px;
+    bottom: -50px;
     font-weight: bold;
     padding-bottom: 50px;
 }

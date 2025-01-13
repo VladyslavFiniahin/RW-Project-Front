@@ -40,6 +40,7 @@
   background-image: url("../../../public/mainpage/map.svg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 .arrow {
@@ -246,6 +247,10 @@
   position: relative;
   z-index: 2; 
   font-family: 'Comfortaa', sans-serif;
+}
+
+.carrousel {
+  margin-bottom: 150px;
 }
 
 @media (max-width: 1050px) {

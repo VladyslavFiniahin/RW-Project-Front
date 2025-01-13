@@ -4,6 +4,7 @@ import styles from "./Mainpage.module.css";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import Card from "../../components/Card/Card";
+import Carrousel from "../../components/Carrousel"
 
 const Mainpage = () => {
   return (
@@ -81,6 +82,10 @@ const Mainpage = () => {
               </div>
             </div>
           </div>
+        </section>
+        <section className={styles.carrousel}>
+          <Carrousel  />
+
         </section>
 
         <Footer />

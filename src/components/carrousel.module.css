@@ -1,3 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 96px; 
+    color: #000000; 
+    text-align: left;
+    margin-bottom: 20px; 
+    position: relative; 
+}
+
+.title::after {
+    content: ""; 
+    position: absolute;
+    width: 519px; 
+    height: 5px; 
+    background-color: #FF5C39; 
+    bottom: -5px; 
+    left: 0%; 
+  }
+  
 .carrousel {
     position: relative;
     display: flex;
@@ -92,3 +115,4 @@
     font-size: 35px;
     line-height: 0; 
 }
+

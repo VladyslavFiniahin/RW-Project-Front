@@ -1,0 +1,60 @@
+.header {
+  height: 12vh; /* Збільшена висота для розміщення логотипа */
+  position: relative;
+  display: flex;
+  justify-content: space-between; /* Вирівнювання елементів по краях */
+  align-items: center;
+  padding: 0 2vw; /* Відступи по боках для вмісту */
+  font-weight: 500;
+  font-size: 25px;
+  box-sizing: border-box; /* Для врахування padding у загальну висоту */
+}
+
+.center_img {
+  width: 8vw; /* Масштаб логотипа */
+  height: auto; /* Збереження пропорцій логотипа */
+  object-fit: contain; /* Забезпечує повне відображення логотипа */
+}
+
+.group1,
+.group2 {
+  display: flex;
+  align-items: center; /* Вирівнювання елементів групи по вертикалі */
+  width: 35%;
+}
+
+.g1_item1 {
+  margin-left: auto;
+  margin-right: 2vw; /* Повернуто відступ праворуч */
+}
+
+.g1_item2 {
+  margin-right: 2vw; /* Повернуто відступ праворуч */
+}
+
+.g2_item1 {
+  margin-left: 2vw; /* Повернуто відступ ліворуч */
+}
+
+.g2_item2 {
+  margin-left: 2vw; /* Повернуто відступ ліворуч */
+}
+
+.right {
+  position: absolute;
+  right: 2vw; /* Відступ від правого краю */
+  display: flex;
+  align-items: center; /* Вирівнювання іконок по вертикалі */
+  gap: 1vw; /* Проміжок між елементами */
+}
+
+.search_img { 
+  width: 26px;
+  aspect-ratio: 1;
+  margin-right: 2vw; /* Повернуто відступ праворуч */
+}
+
+.profile_img {
+  width: 26px;
+  aspect-ratio: 1;
+}

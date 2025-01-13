@@ -1,0 +1,98 @@
+
+.carrousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.track {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.item {
+    position: relative; 
+    width: 372px; 
+    height: 643px; 
+    border-radius: 35px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    background-color: #F6ECE1;
+}
+
+.item p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 10px 15px; 
+    color: #000000;
+    font-family: "Kodchasan", sans-serif; 
+    font-size: 34px; 
+    font-weight: 500; 
+    line-height: 44.2px; 
+    text-align: left; 
+    box-sizing: border-box; 
+    background-color: #F6ECE1;
+}
+
+.carrouselButton {
+    background-color: transparent;
+    width: 38px;
+    height: 42px; 
+    border: none; 
+    color: #FF5C39; 
+    font-size: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 695px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.carrouselButton.left {
+    left: 90px; 
+}
+
+.carrouselButton.right {
+    right: 90px;
+}
+
+.moreButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54px; 
+    height: 48px;
+    background-color: rgba(255, 255, 255, 0); 
+    border-radius: 50%; 
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    top: 37px;
+    left: 279px;
+    cursor: pointer;
+    /*font-weight: bold; */
+}
+
+.arrow {
+    transform: rotate(-360deg); 
+    font-size: 35px;
+    line-height: 0; 
+}
+

@@ -1,6 +1,4 @@
 
-
-
 .carrousel {
     position: relative;
     display: flex;
@@ -22,7 +20,7 @@
 .item {
     position: relative; 
     width: 372px; 
-    height: auto; 
+    height: 643px; 
     border-radius: 35px;
     overflow: hidden;
     text-align: center;
@@ -63,7 +61,7 @@
     position: absolute;
     top: 695px;
     font-weight: bold;
-    padding: 8px 12px;
+    padding-bottom: 50px;
 }
 
 .carrouselButton.left {

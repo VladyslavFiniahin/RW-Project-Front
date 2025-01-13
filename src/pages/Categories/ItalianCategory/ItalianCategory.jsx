@@ -4,20 +4,20 @@ import Header from "../../../components/Header/Header";
 import Footer from "../../../components/Footer/Footer";
 
 const categories = [
-  "Сніданки",
-  "Основні Страви",
-  "Закуски",
-  "Десерти",
-  "Салати",
-  "Веганські Страви",
-  "Напої",
+"Breakfasts",
+"Main Dishes",
+"Appetizers",
+"Desserts",
+"Salads",
+"Vegan Dishes",
+"Beverages",
 ];
 
 const dishes = [
-  { id: 1, name: "Гранола з фруктами", image: "/ItalianCategory/image1.png" },
-  { id: 2, name: "Паста з грибами", image: "/ItalianCategory/image2.png" },
-  { id: 3, name: "Гранола з фруктами", image: "/ItalianCategory/image3.png" },
-  { id: 4, name: "Паста з грибами", image: "/ItalianCategory/image4.png" },
+  { id: 1, name: "Granola with fruits", image: "/ItalianCategory/image1.png" },
+  { id: 2, name: "Pasta with mushrooms", image: "/ItalianCategory/image2.png" },
+  { id: 3, name: "Granola with fruits", image: "/ItalianCategory/image3.png" },
+  { id: 4, name: "Pasta with mushrooms", image: "/ItalianCategory/image4.png" },
 ];
 
 const ItalianCategory = () => {
@@ -27,7 +27,7 @@ const ItalianCategory = () => {
     <div className={styles.ItalianCategory}>
       <div>
       <div className={styles.categorytitle}>
-        ІТАЛІЙСЬКА КУХНЯ
+        ITALIAN CUISINE
         </div>
         <nav>
           {categories.map((category, index) => (

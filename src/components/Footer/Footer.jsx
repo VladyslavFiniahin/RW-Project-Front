@@ -6,15 +6,19 @@ const Footer = () => {
   return (
     <div className={styles.Footer}>
       <div className={styles.links_left}>
-        <div>соціальні мережі:</div>
-        <div>кнопки на соц мережі</div>
-        <div>електронна пошта:</div>
+        <div>Social Media</div>
+        <img src="/Footer/facebook.svg" className={styles.social} alt="facebook" />
+        <img src="/Footer/twitter.svg" className={styles.social} alt="twitter" />
+        <img src="/Footer/instagram.svg" className={styles.social} alt="instagram" />
+        <div>Email:</div>
         <div>amnyamteam@gmail.com</div>
       </div>
       <img src="/header/logo.svg" className={styles.logo} alt="logo" />
       <div className={styles.links_right}>
-        <div>Дізнатися більше</div>
-        <div>Про Нас</div>
+        <div>Home</div>
+        <div>Categories</div>
+        <div>Map</div>
+        <div>About Us</div>
 
       </div>
     </div>

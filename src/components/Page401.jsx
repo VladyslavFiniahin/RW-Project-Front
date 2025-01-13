@@ -6,9 +6,9 @@ const NotAuth = () => {
     return (
         <div className={styles.notfound}>
             <h1>401</h1>
-            <h2>Будь ласка, увійдіть, щоб отримати доступ до цієї сторінки</h2>
-            <Link to="/" className={styles.back}>
-                Увійти
+            <h2>Please log in to get access to this page.</h2>
+            <Link to="/login" className={styles.back}>
+                Log in
             </Link>
         </div>
     );

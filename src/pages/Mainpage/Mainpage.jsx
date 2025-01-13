@@ -5,6 +5,7 @@ import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import Card from "../../components/Card/Card";
 import Carrousel from "../../components/Carrousel"
+import { Link } from "react-router-dom";
 
 const Mainpage = () => {
   return (
@@ -44,12 +45,24 @@ const Mainpage = () => {
               </div>
               <div className={styles.two_cards}>
                 <div className={styles.categories_card_blue}>
-                  <img src="/mainpage/arrow.svg" alt="arrow" className={styles.arrow2} />
-                  <div className={styles.two_card_white_text}>CATEGORIES</div>
+                  <Link className={styles.link} to="/categories">
+                    <img src="/mainpage/arrow.svg" alt="arrow" className={styles.arrow2} />
+                  </Link>
+                  <div className={styles.two_card_white_text}>
+                    <Link className={styles.link} to="/categories">
+                      CATEGORIES
+                    </Link>
+                  </div>
                 </div>
                 <div className={styles.categories_card_yellow}>
-                  <img src="/mainpage/arrow.svg" alt="arrow" className={styles.arrow2} />
-                  <div className={styles.two_card_white_text}>CATEGORIES</div>
+                  <Link className={styles.link} to="/categories">
+                    <img src="/mainpage/arrow.svg" alt="arrow" className={styles.arrow2} />
+                  </Link>
+                  <div className={styles.two_card_white_text}>
+                    <Link className={styles.link} to="/categories">
+                      CATEGORIES
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>

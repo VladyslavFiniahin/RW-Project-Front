@@ -1,4 +1,8 @@
-
+.link {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
 
 .section2 {
   padding: 100px 48px;

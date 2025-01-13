@@ -6,9 +6,9 @@ const NotFound = () => {
     return (
         <div className={styles.notfound}>
             <h1>404</h1>
-            <h2>Сторінку не знайдено</h2>
+            <h2>Page not found</h2>
             <Link to="/" className={styles.back}>
-                Повернутися на головну
+                Back to main page
             </Link>
         </div>
     );

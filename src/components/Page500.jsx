@@ -6,9 +6,9 @@ const IntError = () => {
     return (
         <div className={styles.notfound}>
             <h1>500</h1>
-            <h2>Щось пішло не так. Ми вже працюємо над цим!</h2>
+            <h2>Something went wrong. We are working on it!</h2>
             <Link to="/" className={styles.back}>
-                Повернутися на головну
+                Back to main page.
             </Link>
         </div>
     );

@@ -1,4 +1,5 @@
 
+
 .section2 {
   padding: 100px 48px;
   display: flex;
@@ -141,8 +142,8 @@
 
 .yellow_random_button {
   margin-top: 3.8%;
-  width: 50%;
-  height: 50px;
+  width: 281;
+  height: 68px;
   background-color: #FFD753;
   border-radius: 30px;
 
@@ -153,4 +154,87 @@
   color: white;
   font-weight: 500;
   font-size: 30px;
+
+  
+}
+
+.cardsContainer {
+  position: relative;
+  width: 511px; 
+  height: 636px; 
+  margin-left: 500px;
+}
+
+.card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cardLeft {
+  transform: rotate(-15deg) translateX(-100px);
+  z-index: 1;
+}
+
+.cardCenter {
+  transform: rotate(0deg) translateX(0);
+  z-index: 3; 
+}
+
+.cardRight {
+  transform: rotate(15deg) translateX(100px);
+  z-index: 2;
+}
+
+.heroSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.textWrapper {
+  position: relative;
+  z-index: 2; 
+  margin-bottom: 2rem;
+}
+
+.mainTitle {
+  font-size: 96px; 
+    color: #000000; 
+    font-family: 'Comfortaa', sans-serif;
+    margin-bottom: 20px; 
+    position: relative;
+}
+
+.underline {
+  text-decoration: underline;
+  font-family: 'Comfortaa', sans-serif;
+  text-decoration-color: red;
+}
+
+.imageWrapper {
+  position: relative;
+  z-index: 3; 
+  margin-top: -13rem; 
+}
+
+.heroImage {
+  width: 600px; 
+  height: 576px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #000000;
+  margin-top: 1rem;
+  font-weight: 500;
+  position: relative;
+  z-index: 2; 
+  font-family: 'Comfortaa', sans-serif;
 }

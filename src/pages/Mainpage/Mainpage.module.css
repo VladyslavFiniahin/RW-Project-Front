@@ -121,11 +121,12 @@
 }
 
 .red_section_wrapper {
+  box-sizing: border-box;
   display: flex;
-  margin-top: 18%;
-  margin-bottom: 18%;
-  margin-left: 8%;
-  margin-right: 8%;
+  padding-top: 18%;
+  padding-bottom: 18%;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 .left_red_section {
@@ -166,7 +167,7 @@
   position: relative;
   width: 511px; 
   height: 636px; 
-  margin-left: 500px;
+  margin-left: 12vw;
 }
 
 .card {
@@ -187,10 +188,10 @@
   z-index: 3; 
 }
 
-/* .cardRight {
+.cardRight {
   transform: rotate(15deg) translateX(100px);
   z-index: 2;
-} */
+}
 
 .heroSection {
   display: flex;

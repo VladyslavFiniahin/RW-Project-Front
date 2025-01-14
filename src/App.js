@@ -18,6 +18,7 @@ function App() {
           <Route path="/map" element={<UnderConstruction />} />
           <Route path="/profile" element={<UnderConstruction/> } />
           <Route path="/about" element={<UnderConstruction/> } />
+          <Route path="/categories/*" element={<UnderConstruction />} />
 
 
           <Route path="*" element={<NotFound />} />

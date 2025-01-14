@@ -8,7 +8,7 @@ const Carrousel = () => {
     useEffect(() => {
         const fetchRecipes = async () => {
         try {
-            const response = await fetch('http://localhost:3001/api/recipes/getlast20');
+            const response = await fetch('http://94.231.178.180:3001/api/recipes/getlast20');
             if (!response.ok) {
                 throw new Error('Failed to fetch recipes');
             }

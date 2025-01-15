@@ -33,7 +33,7 @@ const Header = () => {
         </div>
       </div>
 
-      <img src="/header/logo.svg" alt="logo" className={styles.center_img} />
+      <img src="/header/header.svg" alt="logo" className={styles.center_img} />
 
       <div className={styles.group2}>
         <div className={styles.g2_item1}>

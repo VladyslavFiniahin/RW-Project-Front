@@ -36,7 +36,7 @@ const Mainpage = () => {
           <div className={styles.left_section2}>
             <div className={styles.giant_text}>
               <div className={styles.red_giant_text}>Ready</div>
-              <div>To explore?</div>
+              <div className={styles.text_under_red}>To explore?</div>
             </div>
             <div className={styles.cards_section2}>
               <div className={styles.map_card}>

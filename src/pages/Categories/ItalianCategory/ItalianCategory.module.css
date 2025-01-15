@@ -4,6 +4,7 @@
     text-align: left; 
     margin-bottom: 20px; 
     position: relative; 
+    font-family: "Comfortaa", sans-serif; 
   }
   
 nav {
@@ -14,10 +15,11 @@ nav {
 nav span {
     cursor: pointer;
     box-sizing: border-box;
-    padding: 0px 45px;
+    padding: 0px 35px;
     text-decoration: none;
     color: #000000;
     font-size: 32px;
+    font-family: "Comfortaa", sans-serif; 
   }
 
   .track-wrap {
@@ -64,7 +66,7 @@ nav span {
     margin: 0;
     padding: 10px 15px; 
     color: white;
-    font-family: "Kodchasan", sans-serif; 
+    font-family: "Comfortaa", sans-serif; 
     font-size: 34px; 
     font-weight: 500; 
     line-height: 44.2px; 

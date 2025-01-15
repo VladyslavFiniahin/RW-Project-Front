@@ -13,7 +13,7 @@ const Footer = () => {
         <div>Email:</div>
         <div>amnyamteam@gmail.com</div>
       </div>
-      <img src="/footer/footer.svg" className={styles.logo} alt="logo" />
+      <img src="/Footer/footer.svg" className={styles.logo} alt="logo" />
       <div className={styles.links_right}>
         <div>Home</div>
         <div>Categories</div>

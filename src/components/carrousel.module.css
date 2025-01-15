@@ -9,6 +9,7 @@
     text-align: left;
     margin-bottom: 20px; 
     position: relative; 
+    font-family: "Comfortaa", sans-serif; 
 }
 
 .title::after {

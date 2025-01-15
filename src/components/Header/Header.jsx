@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import styles from "./Header.module.css";
 
 const Header = () => {
@@ -24,32 +25,45 @@ const Header = () => {
   return (
     <div className={styles.header}>
       <div className={styles.group1}>
-        <div className={styles.g1_item1}>Home</div>
-        <div className={styles.g1_item2}>Categories</div>
+        <div className={styles.g1_item1}>
+          <Link className={styles.link} to="/">Home</Link>
+        </div>
+        <div className={styles.g1_item2}>
+          <Link className={styles.link} to="/categories">Categories</Link>
+        </div>
       </div>
-      <img src="/header/header.svg" alt="logo" className={styles.center_img} />
+
+      <img src="/header/logo.svg" alt="logo" className={styles.center_img} />
+
       <div className={styles.group2}>
-        <div className={styles.g2_item1}>Map</div>
-        <div className={styles.g2_item1}>About Us</div>
+        <div className={styles.g2_item1}>
+          <Link className={styles.link} to="/map">Map</Link>
+        </div>
+        <div className={styles.g2_item1}>
+          <Link className={styles.link} to="/about">About Us</Link>
+        </div>
       </div>
+
       <div className={styles.right}>
         <button onClick={toggleSearch} className={styles.search_button}>
-          <img src="/header/search.svg" alt="search" />
+          <img src="/header/search.svg" alt="search" className={styles.search_img} />
         </button>
-        <img src="/header/profile.svg" alt="profile" className={styles.profile_img} />
+        <Link className={styles.link} to="/profile">
+          <img src="/header/profile.svg" alt="profile" className={styles.profile_img} />
+        </Link>
       </div>
 
       {isSearchOpen && (
         <div className={styles.search_window}>
           <div className={styles.search_bar}>
-          <button onClick={handleSearchSubmit} className={styles.submit_button}>
-            <img
-                src="/header/search.svg" 
+            <button onClick={handleSearchSubmit} className={styles.submit_button}>
+              <img
+                src="/header/search.svg"
                 alt="Submit search"
                 className={styles.icon_img}
               />
             </button>
-            <input 
+            <input
               type="text"
               value={searchQuery}
               onChange={handleSearchChange}

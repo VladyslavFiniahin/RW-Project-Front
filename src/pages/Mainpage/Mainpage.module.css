@@ -2,6 +2,7 @@
   text-decoration: none;
   color: #fff;
   cursor: pointer;
+  font-family: "Comfortaa", sans-serif; 
 }
 
 .section2 {
@@ -23,10 +24,12 @@
   font-size: 124px;
   font-weight: 500;
   line-height: 110%;
+  font-family: "Comfortaa", sans-serif; 
 }
 
 .red_giant_text {
   color: #ff5c39;
+  font-family: "Comfortaa", sans-serif; 
 }
 .map_card {
   width: 48%;
@@ -65,6 +68,7 @@
   font-weight: 500;
   font-size: 28px;
   color: #FFF9F2;
+  font-family: "Comfortaa", sans-serif; 
 }
 
 .two_card_white_text {
@@ -75,6 +79,7 @@
   font-weight: 500;
   font-size: 28px;
   color: #FFF9F2;
+  font-family: "Comfortaa", sans-serif; 
 }
 
 
@@ -138,20 +143,19 @@
   padding-right: 8%;
 }
 
-.left_red_section {
-  /* background-color: aqua; */
-}
 
 .big_random_text {
   color: #fff;
   font-weight: 500;
   font-size: 110px;
+  font-family: "Comfortaa", sans-serif; 
 }
 
 .red_section_smaller_text {
   font-weight: 500;
   font-size: 30px;
   color: #fff;
+  font-family: "Comfortaa", sans-serif; 
 }
 
 .yellow_random_button {
@@ -168,6 +172,7 @@
   color: white;
   font-weight: 500;
   font-size: 30px;
+  font-family: "Comfortaa", sans-serif; 
 
   
 }
@@ -177,6 +182,9 @@
   width: 511px; 
   height: 636px; 
   margin-left: 12vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
@@ -266,4 +274,16 @@
     width: 100%;
     margin-right: 0;
   }
+}
+
+
+@media (max-width: 1550px) {
+  .cardsContainer {
+   display: none;
+  }
+
+  
+}
+.text_under_red {
+  font-family: "Comfortaa", sans-serif; 
 }

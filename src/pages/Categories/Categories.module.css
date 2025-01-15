@@ -16,6 +16,7 @@
     /*left: 50px;*/
     margin-bottom: 20px; 
     position: relative; 
+    font-family: 'Comfortaa', sans-serif;
   }
   
   .categorytitle::after {
@@ -27,4 +28,7 @@
     bottom: -5px; 
     left: 0%; 
   }
+  
+ 
+  
   

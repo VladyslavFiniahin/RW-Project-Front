@@ -90,9 +90,33 @@
     /*font-weight: bold; */
 }
 
+.moreButton:nth-child(even){
+    background-color: yellow;
+}
+
+.moreButton:nth-child(odd){
+    background-color: blue;
+}
+
 .arrow {
     transform: rotate(-360deg); 
     font-size: 35px;
     line-height: 0; 
 }
 
+/*@media (max-width: 480px) {
+    .track {
+        display: flex;
+        gap: 10px;
+        overflow-x: auto;
+    }
+
+    .item {
+        flex: 0 0 calc(100% - 20px); 
+    }
+
+    /*.carrouselButton {
+        display: none; 
+    }
+}
+*/

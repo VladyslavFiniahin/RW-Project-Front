@@ -22,6 +22,7 @@
 .links_right {
   font-size: 24px;
   margin-left: auto;
+  
 }
 
 .links_left {
@@ -33,6 +34,12 @@
   font-family: 'Comfortaa', sans-serif; 
 }
 
-.links_right div {
-  font-family: 'Comfortaa', sans-serif; 
+
+
+.link {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  font-family: 'Comfortaa', sans-serif;
+  
 }

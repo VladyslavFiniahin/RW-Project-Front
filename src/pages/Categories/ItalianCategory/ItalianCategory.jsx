@@ -2,6 +2,7 @@ import { React, useState, useEffect } from "react";
 import styles from "./ItalianCategory.module.css";
 import Header from "../../../components/Header/Header";
 import Footer from "../../../components/Footer/Footer";
+import { Link } from "react-router-dom";
 
 const cuisines = [
   "Breakfast",
@@ -14,7 +15,7 @@ const cuisines = [
 ];
 
 const ItalianCategory = () => {
-  const [recipes, setRecipes] = useState([]);
+ const [recipes, setRecipes] = useState([]);
   const [loading, setLoading] = useState(true);
   const [chosenCategory, setChosenCategory] = useState(null);
 
@@ -73,10 +74,18 @@ const ItalianCategory = () => {
 
         <main>
           <div className={styles.track}>
-            {filteredRecipes.map((recipe) => (
+            {filteredRecipes.map((recipe, index) => (
               <div className={styles.item} key={recipe.recipe_id}>
                 <img src={recipe.image_url} alt={recipe.title} />
                 <p>{recipe.title}</p>
+                <Link 
+                  to={recipe.link} 
+                  rel="noopener noreferrer" 
+                  className={styles.moreButton}  
+                style={{ backgroundColor: index % 2 === 0 ? "#7A90FF" : "#FFD753" }}
+                >
+                            <span className={styles.arrow}>&#8599;</span>
+                        </Link>
               </div>
             ))}
           </div>

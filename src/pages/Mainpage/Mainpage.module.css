@@ -30,15 +30,21 @@
 .red_giant_text {
   color: #ff5c39;
   font-family: "Comfortaa", sans-serif; 
+  font-size: 124px;
+}
+.black_giant_text {
+  color: #000000;
+  font-family: "Comfortaa", sans-serif; 
+  font-size: 110px;
 }
 .map_card {
   width: 48%;
 
   position: relative;
-  padding: 5%;
-  aspect-ratio: 1.15;
+  padding: 3%;
+  aspect-ratio: 1.30;
   background-color: #FF5C39;
-  margin-right: 4%;
+  margin-right: 6%;
   border-radius: 35px;
 
   box-sizing: border-box;
@@ -63,25 +69,34 @@
 
 .card_white_text {
   position: absolute;
-  bottom: 10%;
+  bottom: 8%;
 
   font-weight: 500;
-  font-size: 28px;
+  font-size: 30px;
   color: #FFF9F2;
   font-family: "Comfortaa", sans-serif; 
 }
 
 .two_card_white_text {
   position: absolute;
-  left: 10%;
+  left: 5%;
   bottom: 20%;
 
-  font-weight: 500;
-  font-size: 28px;
+  font-weight: 400;
+  font-size: 25px;
   color: #FFF9F2;
   font-family: "Comfortaa", sans-serif; 
 }
+.two_card_white_text {
+  position: absolute;
+  left: 5%;
+  bottom: 20%;
 
+  font-weight: 400;
+  font-size: 25px;
+  color: #FF5C39;
+  font-family: "Comfortaa", sans-serif; 
+}
 
 .two_cards {
   width: 48%;
@@ -105,7 +120,8 @@
 
 .categories_card_yellow {
   height: 44%;
-  background-color: #FFD753; 
+  background-color: #FFD753; /* Жовтий фон */
+  color: #FF5C39;
   position: relative;
   border-radius: 35px;
 }
@@ -160,7 +176,7 @@
 
 .yellow_random_button {
   margin-top: 3.8%;
-  width: 281;
+  width: 280;
   height: 68px;
   background-color: #FFD753;
   border-radius: 30px;
@@ -168,10 +184,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 240px; 
 
-  color: white;
+  color:#FF5C39;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 35px;
   font-family: "Comfortaa", sans-serif; 
 
   

@@ -35,13 +35,13 @@ const Mainpage = () => {
         <section className={styles.section2}>
           <div className={styles.left_section2}>
             <div className={styles.giant_text}>
-              <div className={styles.red_giant_text}>Ready</div>
-              <div className={styles.text_under_red}>To explore?</div>
+              <div className={styles.red_giant_text}>READY</div>
+              <div className={styles.text_under_red}>TO EXPLORE?</div>
             </div>
             <div className={styles.cards_section2}>
               <div className={styles.map_card}>
                 <img src="/mainpage/arrow.svg" alt="arrow" className={styles.arrow} />
-                <div className={styles.card_white_text}>UKRAINIAN MAP</div>
+                <div className={styles.card_white_text}>NATIONAL DISHES</div>
               </div>
               <div className={styles.two_cards}>
                 <div className={styles.categories_card_blue}>
@@ -77,9 +77,12 @@ const Mainpage = () => {
             <div className={styles.left_red_section}>
               <div className={styles.big_random_text}>RANDOM</div>
               <div className={styles.red_section_smaller_text}>
-                Can’t decide? Let us surprise you!
+                can’t decide? 
+                <div className={styles.red_section_smaller_text}>
+                let us surprise you!
+                </div>
               </div>
-              <div className={styles.yellow_random_button}>Pick a Random Recipe</div>
+              <div className={styles.yellow_random_button}>START</div>
             </div>
             <div className={styles.right_red_section}>
               <div className={styles.cardsContainer}>
@@ -91,6 +94,7 @@ const Mainpage = () => {
                 </div>
                 <div className={`${styles.card} ${styles.cardRight}`}>
                   <Card image="/mainpage/randimage3.jfif" />
+                  
                 </div>
               </div>
             </div>
